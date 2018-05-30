@@ -2,9 +2,9 @@ baseURL = "https://mobiledads.live/"
 languageCode = "en-us"
 title = "@MobileDads Social Networks!"
 theme = "slate"
-BackgroundStyle = "#657383;"
 publishDir = "docs"
 
 [ params ]
+BackgroundStyle = "#657383;"
 Favicon = "favicon.ico"
 OpenLinksInNewWindow = true
