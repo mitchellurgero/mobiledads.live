@@ -5,6 +5,5 @@ theme = "slate"
 publishDir = "docs"
 
 [ params ]
-BackgroundStyle = "#657383;"
 Favicon = "favicon.ico"
 OpenLinksInNewWindow = true
