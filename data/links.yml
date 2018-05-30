@@ -8,8 +8,7 @@ tiles:
 -
   name: "facebook"
   url: "https://facebook.com/MobileDads"
-  img: "logos/facebook.svg"
-  bg_color: "#3B5998"
+  bg_color: "#4267B2"
   txt_color: "#f5f8fa" 
 -
   name: "twitch"
