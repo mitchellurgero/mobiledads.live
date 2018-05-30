@@ -1,0 +1,34 @@
+tiles:
+-
+  name: "twitter"
+  url: "https://twitter.com/dads_mobile"
+  img: "logos/twitter.svg"
+  bg_color: "#1da1f2"
+  txt_color: "#f5f8fa"
+-
+  name: "facebook"
+  url: "https://facebook.com/MobileDads"
+  img: "logos/facebook.svg"
+  bg_color: "#3B5998"
+  txt_color: "#f5f8fa" 
+-
+  name: "twitch"
+  url: "https://twitch.tv/mobiledads"
+  img: "logos/twitch.svg"
+  bg_color: "#f1f1f1"
+  txt_color: "#6441a5"
+  tags: ["video"]
+-
+  name: "youtube"
+  url: "https://www.youtube.com/channel/UCCN3D9s4rKUXVl6mBE1MYDw"
+  img: "logos/youtube.svg"
+  bg_color: "#ffffff"
+  txt_color: "#cd201f"
+  tags: ["video"]
+-
+  name: "mobcrush"
+  url: "https://mobcrush.com/MobileDads"
+  img: "logos/mobcrush.svg"
+  bg_color: "#000"
+  txt_color: "#cd201f"
+  tags: ["video"]

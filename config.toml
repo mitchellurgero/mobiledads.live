@@ -1,0 +1,10 @@
+baseURL = "https://mobiledads.live/"
+languageCode = "en-us"
+title = "@MobileDads Social Networks!"
+theme = "slate"
+
+publishDir = "docs"
+
+[ params ]
+Favicon = "favicon.ico"
+OpenLinksInNewWindow = true
