@@ -28,6 +28,6 @@ tiles:
   name: "mobcrush"
   url: "https://mobcrush.com/MobileDads"
   img: "logos/mobcrush.svg"
-  bg_color: "#000"
+  bg_color: "#2d3436"
   txt_color: "#cd201f"
   tags: ["video"]
