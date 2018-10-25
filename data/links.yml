@@ -25,9 +25,9 @@ tiles:
   txt_color: "#cd201f"
   tags: ["video"]
 -
-  name: "mobcrush"
-  url: "https://mobcrush.com/MobileDads"
-  img: "logos/mobcrush.svg"
-  bg_color: "#2d3436"
-  txt_color: "#cd201f"
+  name: "Omlet Arcade"
+  url: "https://arcade.omlet.me/profile/mobiledads"
+  img: "logos/omlet_arcade.png"
+  bg_color: "#FF6948"
+  txt_color: "#FFFFFF"
   tags: ["video"]
