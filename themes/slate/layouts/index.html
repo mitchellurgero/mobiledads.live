@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>{{ .Title }}</title>{{ if .Site.Params.Favicon }}
+    <link rel="shortcut icon" href="{{ .Site.Params.Favicon }}">{{ end }}
+    <link rel="stylesheet" href="css/slate.css">
+	
+	<style>
+	
+		body{ 
+			background:#000 !important;
+		}
+		.nav-panel{
+			background: rgb(45, 52, 54,.5) !important;
+		}
+		.tile-container{
+			margin-right: auto !important; 
+			margin-left: auto !important; 
+			max-width: 1050px !important;
+		}
+		#share-buttons img {
+			width: 35px;
+			padding: 5px;
+			border: 0;
+			box-shadow: 0;
+			display: inline;
+		}
+	</style>
+</head>
+
+<body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
+{{- if .Site.Params.BackgroundImages }} data-backgrounds='{{ range .Site.Params.BackgroundImages }}{{ . }},{{ end }}'{{- end }}>
+
+{{ partial "nav.html" . }}
+
+<div class="container" style="margin-bottom:-90px !important;">
+	<center><img src="logo.png" style="display:inline-block; max-width:400px;min-width:200px; border-radius:20px; margin:auto;"></center>
+	<p style="color:white">Live streaming mobile games like PUBG Mobile, Modern Combat Versus, Asphalt 9, and more!</p>
+	
+</div>
+<div class="container" style="margin-bottom:-100px !important;">
+	<center><h2 style="color:white;">Follow Us On:</h2></center>
+</div>
+<div class="container">
+{{ partial "tile_slate.html" . }}
+</div>
+<div class="container"><div class="container">
+	<span style="color:white;">Welcome to the MobileDads Website!</span>
+	<div class="" style="color:white;">
+		Use the links above to follow us on social media, watch live streams, and play some mobile games with us!<br>
+		Looking to get in touch with us directly?<br>
+		Email us at &#x6D;&#x6F;&#x62;&#x69;&#x6C;&#x65;&#x64;&#x61;&#x64;&#x73;&#x40;&#x75;&#x72;&#x67;&#x65;&#x72;&#x6F;&#x2E;&#x6F;&#x72;&#x67;
+	</div>
+</div>
+</div>
+<div class="container">
+<div id="share-buttons">
+    
+    <a href="mailto:?Subject=Join @MobileDads!&Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://mobiledads.live"><img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a>
+    
+    <a href="http://www.facebook.com/sharer.php?u=https://mobiledads.live&t=Join @MobileDads and watch mobile live streams with me!" target="_blank"><img src="logos/facebook.png" alt="Facebook" /></a>
+    
+    <a href="https://twitter.com/share?url=https://mobiledads.live&text=Join @dads_mobile and watch mobile live streams with me!&hashtags=MobileDadsGaming" target="_blank"><img src="logos/twitter.png" alt="Twitter" /></a>
+
+</div>
+</div>
+<br><br><br>
+<div style="color:white;"><center>Copyright &copy; MobileDads 2018</center></div>
+</body>
+<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+<script src="js/slate.js"></script>
+</html>
